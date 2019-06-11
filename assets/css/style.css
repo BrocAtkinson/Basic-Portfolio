@@ -1,7 +1,14 @@
 table { color: #cccccc;
         width: 100%;
 }
-
+/*baseball pic size*/
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+  height: 150px;
+}
 h1{
   background-color: #4aaaa5;
   color: #ffffff;
@@ -13,7 +20,7 @@ h1{
 h2{
   color: #4aaaa5;
 }
-
+/* 1st slide starts here*/
 #navbar {
     background-color: #ffffff;
   }
@@ -26,7 +33,7 @@ h2{
     padding: 30px;
 
   }
-
+/*2nd slide starts*/ 
 input[type=text], select, textarea {
   width: 100%; 
   padding: 12px;  
@@ -48,7 +55,7 @@ input[type=submit] {
 input[type=submit]:hover {
   background-color; crimson;
 }
-
+/*last slide starts*/ 
 .container {
   border: 5px;
   background-color: #f2f2f2;
