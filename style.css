@@ -1,20 +1,21 @@
-.page {
-  width: 600px;
-  margin: 0 auto;
-  overflow: hidden;             
-  background-color: white;
 
-}
+
 .header{
 float: left;
 margin-top: 10px;
 margin-right: 20px;
 margin-bottom: 10px;
 margin-left: 20px;
-background-color: teal;
+background-color: blue;
+}
+@media screen and (max-width: 480px) {
+  header {
+    color: red;
+  }
 }
 .nav{
 clear:both;
+background-color: black;
 width: 35%;
 margin-top: 30px;
 margin-right: 30px;
@@ -29,7 +30,7 @@ float: right;
 }
 .h1{
   clear: both;
-  color: teal;
+  color: red;
   float: left;
  
 }
